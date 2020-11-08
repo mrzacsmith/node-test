@@ -11,6 +11,7 @@ server.use(helmet())
 server.use(morgan('dev'))
 server.use(express.json())
 
+// endpoint paths
 server.use('/api/v1/parse', ApiRouter1)
 server.use('/api/v2/parse', ApiRouter2)
 
